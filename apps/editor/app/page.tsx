@@ -1,11 +1,7 @@
 'use client'
 
-import { Editor } from '@pascal-app/editor'
+import { SitePlan } from './components/site-plan'
 
 export default function Home() {
-  return (
-    <div className="h-screen w-screen">
-      <Editor />
-    </div>
-  )
+  return <SitePlan />
 }

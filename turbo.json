@@ -26,9 +26,20 @@
       "dependsOn": ["^check-types"]
     },
     "dev": {
-      "dependsOn": ["^build"],
       "cache": false,
       "persistent": true
+    },
+    "@pascal-app/core#dev": {
+      "cache": false,
+      "persistent": false
+    },
+    "@pascal-app/editor#dev": {
+      "cache": false,
+      "persistent": false
+    },
+    "@pascal-app/viewer#dev": {
+      "cache": false,
+      "persistent": false
     }
   }
 }
